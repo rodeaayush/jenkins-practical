@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                sh 'touch ayush{1..10}' 
+                sh 'touch ayush {1..10}' 
             }
         }
     }
